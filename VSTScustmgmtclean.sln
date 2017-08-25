@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManager", "..\..\..\CustomerManager-master\CustomerManager\CustomerManager.csproj", "{9070F180-9D2C-44CD-86C7-0EFB3918D2F0}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CustomerManagerDb", "..\..\..\CustomerManager-master\CustomerManagerDb\CustomerManagerDb.sqlproj", "{D4E4073C-283E-441B-A1B1-D9CAF2824F3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custmgmt", "..\..\..\QAPractice\Custmermanagement\Custmgmt\Custmgmt.csproj", "{FB12E034-8AF9-4610-88EB-B1E376081155}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9070F180-9D2C-44CD-86C7-0EFB3918D2F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9070F180-9D2C-44CD-86C7-0EFB3918D2F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9070F180-9D2C-44CD-86C7-0EFB3918D2F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9070F180-9D2C-44CD-86C7-0EFB3918D2F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E4073C-283E-441B-A1B1-D9CAF2824F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E4073C-283E-441B-A1B1-D9CAF2824F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E4073C-283E-441B-A1B1-D9CAF2824F3C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D4E4073C-283E-441B-A1B1-D9CAF2824F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E4073C-283E-441B-A1B1-D9CAF2824F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E4073C-283E-441B-A1B1-D9CAF2824F3C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FB12E034-8AF9-4610-88EB-B1E376081155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB12E034-8AF9-4610-88EB-B1E376081155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB12E034-8AF9-4610-88EB-B1E376081155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB12E034-8AF9-4610-88EB-B1E376081155}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://inbantfs01:8080/tfs/intfs02-projectcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\..\\..\\CustomerManager-master\\CustomerManager\\CustomerManager.csproj
+		SccProjectName1 = CustomerManager
+		SccLocalPath1 = ..\\..\\..\\CustomerManager-master\\CustomerManager
+		SccProjectUniqueName2 = ..\\..\\..\\CustomerManager-master\\CustomerManagerDb\\CustomerManagerDb.sqlproj
+		SccProjectName2 = CustomerManagerDb
+		SccLocalPath2 = ..\\..\\..\\CustomerManager-master\\CustomerManagerDb
+		SccProjectUniqueName3 = ..\\..\\..\\QAPractice\\Custmermanagement\\Custmgmt\\Custmgmt.csproj
+		SccProjectName3 = Custmgmt
+		SccLocalPath3 = ..\\..\\..\\QAPractice\\Custmermanagement\\Custmgmt
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+﻿{
+  "build_artifactstagingdirectory": "1\\a",
+  "agent_builddirectory": "1",
+  "collectionUrl": "https://customermangamentaccount.visualstudio.com/",
+  "definitionName": "MyFirstProject-Azure Web App-CI",
+  "fileFormatVersion": 3,
+  "lastRunOn": "08/24/2017 16:26:22 +05:30",
+  "build_sourcesdirectory": "1\\s",
+  "common_testresultsdirectory": "1\\TestResults",
+  "collectionId": "e7e6cdcd-5c64-46e2-996e-3af29f19101f",
+  "definitionId": "1",
+  "hashKey": "46dfc8a97eacb0b5fcbfa2a6b2306acd0e52a2b2",
+  "repositoryUrl": "https://customermangamentaccount.visualstudio.com/",
+  "system": "build"
+}

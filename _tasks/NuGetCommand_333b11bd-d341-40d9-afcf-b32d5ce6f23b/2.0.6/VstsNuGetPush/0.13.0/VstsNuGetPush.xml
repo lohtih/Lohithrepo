@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VstsNuGetPush</name>
+    </assembly>
+    <members>
+        <member name="T:VstsNuGetPush.Patterns.Interfaces.ISelector`1">
+            <summary>
+            Selects from a list of options by calling a delegate with each in turn until one succeeds
+            </summary>
+            <typeparam name="TElement">The type of elements in the list used as a parameter to the delegate</typeparam>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.#cctor">
+            Creates the resource manager instance.
+        </member>
+        <member name="M:VstsNuGetPush.Resources.Get(System.String)">
+            Returns a localized string given a resource string name.
+        </member>
+        <member name="M:VstsNuGetPush.Resources.GetInt(System.String)">
+            Returns a localized integer given a resource string name.
+        </member>
+        <member name="M:VstsNuGetPush.Resources.GetBool(System.String)">
+            Returns a localized string given a resource string name.
+        </member>
+        <member name="M:VstsNuGetPush.Resources.Format(System.String,System.Object[])">
+            A little helper function to alleviate some typing associated with loading resources and
+            formatting the strings.  In DEBUG builds, it also asserts that the number of format
+            arguments and the length of args match.
+        </member>
+        <member name="M:VstsNuGetPush.Resources.AddingPackageToFeed">
+            <summary>
+            Adding package to feed.
+            </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.AddingPackageToFeedOnCollection(System.Object,System.Object,System.Object)">
+             <summary>
+             {0} - package filename, {1} - feed name/guid, {2} - collection URL
+            
+             Adding package {0} to feed {1} on {2}.
+             </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.AuthenticationTookXTime(System.Object)">
+             <summary>
+             {0} - time taken to make single request during credential selection
+            
+             Authentication and request took {0}
+             </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.CouldNotDecryptCredential(System.Object)">
+            <summary>
+            Could not decrypt credential for package source {0}.
+            </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.CouldNotFetchPasswordFromEnvVar(System.Object,System.Object)">
+             <summary>
+             {0} - name of environment variable, {1} url of the package source
+            
+             Could not fetch password from environment variable {0} for package source {1}.
+             </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.CredentialName_AADADFS">
+             <summary>
+             This string is intended to be inlined into TryingToAuthenticateWith.
+            
+             silent AAD auth
+             </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.CredentialName_AuthToken">
+             <summary>
+             This string is intended to be inlined into TryingToAuthenticateWith.
+            
+             auth token
+             </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.CredentialName_Config(System.Object)">
+             <summary>
+             {0} - package source name / This string is intended to be inlined into TryingToAuthenticateWith.
+            
+             credentials from config for source {0}
+             </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.CredentialName_Default">
+             <summary>
+             This string is intended to be inlined into TryingToAuthenticateWith.
+            
+             default credentials
+             </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.DoneUploadingContent">
+            <summary>
+            Done uploading package content.
+            </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.EnvironmentNonInteractiveNotPromptingForCredentials">
+            <summary>
+            Running in a non-interactive session. Not prompting for credentials.
+            </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.ErrorColon">
+             <summary>
+             Used on its own line to preface an error message
+            
+             Error:
+             </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.ExplicitNonInteractiveNotPromptingForCredentials">
+            <summary>
+            Prompting for credentials is disabled.
+            </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.FeedParameterMustBeAbsoluteUri">
+            <summary>
+            Feed/Source must be an absolute URI unless CollectionUri or Config is specified.
+            </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.FeedUriMustBeAbsolute">
+            <summary>
+            Feed URI must be an absolute URI.
+            </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.MalformedFeedUuidParameter">
+             <summary>
+             This is not expected to occur in practice
+            
+             Unexpected response from server (Feed ID not formatted correctly).
+             </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.PackageContentNotAlreadyOnService">
+            <summary>
+            The package content is not already on the service.
+            </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.PackageSourceInConfigNotAcceptable">
+            <summary>
+            The address of the package feed must be specified as an absolute HTTP or HTTPS URL.
+            </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.PackageSourceNotFoundInConfig(System.Object,System.Object)">
+             <summary>
+             {0} - package source name, {1} - configuration file path
+            
+             Specified package source {0} not found in configuration file {1}.
+             </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.ProtocolV2NotSupported">
+            <summary>
+            The supplied URL appears to be a NuGet V2 URL. This command only supports the NuGet V3 protocol.
+            </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.ServerDidNotSendAResponseBody">
+             <summary>
+             This is not expected to occur in practice.
+            
+             The server indicated success but did not send the requested information.
+             </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.ServiceIndexDoesNotContainFeedCoordinates">
+            <summary>
+            This tool only works with VS Team Services package feeds. If you are sure you have provided a VS Team Services package feed NuGet V3 URL, contact vsopackagingteam for assistance.
+            </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.SuccessfullyAddedPackage">
+            <summary>
+            Successfully added package to feed.
+            </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.SuccessfullyAuthenticated">
+            <summary>
+            Successfully authenticated.
+            </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.TryingToAddPackageWithoutUploading">
+            <summary>
+            Trying to add package to feed without uploading.
+            </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.TryingToAuthenticateWith(System.Object)">
+             <summary>
+             {0} - source of credentials being attempted
+            
+             Trying to authenticate with {0}.
+             </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.UnableToAuthenticate">
+            <summary>
+            Unable to authenticate to the service. Please check any usernames, passwords, and authentication tokens used.
+            </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.UploadingPackageContent">
+            <summary>
+            Uploading package content.
+            </summary>
+        </member>
+        <member name="M:VstsNuGetPush.Resources.UsingCredentialsFromEnvVar(System.Object,System.Object)">
+             <summary>
+             {0} - name of the environment variable, {1} name of the package source
+            
+             Trying to use credentials in environment variable {0} for package source {1}.
+             </summary>
+        </member>
+    </members>
+</doc>
